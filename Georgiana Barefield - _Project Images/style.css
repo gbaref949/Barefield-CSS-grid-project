@@ -9,7 +9,7 @@ header{
     background-color: #b0a0a0;
     padding: 0.1rem 3rem 0.1rem 3rem;
     margin-top: 0.15rem;
-    border: 1px;
+    border-top: 0.5px;
 }
 #headerText{
     font-size: medium;
@@ -84,6 +84,9 @@ header{
 .item-20 {
     grid-area: img20;
 }
+.item-21 {
+    grid-area: item-21;
+}
 
 .container{
     display: grid;
@@ -94,10 +97,18 @@ header{
     grid-template-columns: auto auto auto auto auto;
     grid-template-rows: auto auto auto auto auto auto auto auto;
     grid-template-areas: 
-    "img20 img20 img20 img20 img00" ;
+    "img img img img img01" 
+    "img img img img img02"
+    "img img img img img03"
+    "img04 img04 img05 img06 img07"
+    "img08 img09 img09 img10 img11"
+    "img08 img13 img14 img14 img15"
+    "img12 img13 img16 img17 img18"
+    "img19 img20 img20 . item-21";
 }
 p{
     font-size: 18px;
+    justify-items: end;
     margin-top: 2px;
     margin-bottom: 2px;
     color: darkred;
