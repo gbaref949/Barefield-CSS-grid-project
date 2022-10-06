@@ -86,6 +86,8 @@ header{
 }
 .item-21 {
     grid-area: item-21;
+    /* grid-column: 5 / 4; */
+    grid-row: 9 / 9;
 }
 
 .container{
@@ -112,6 +114,12 @@ p{
     margin-top: 2px;
     margin-bottom: 2px;
     color: darkred;
+    display: flex;
+        flex-direction: row;
+        justify-content: end;
+        flex-wrap: wrap;
+        align-items: flex-end;
+        
 }
 img{
     width: 100%;
