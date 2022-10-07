@@ -1,4 +1,4 @@
-html{
+ html{
     border: 25px solid gray;
 }
 body > div{
@@ -124,4 +124,178 @@ p{
 img{
     width: 100%;
     height: 100%;
-}
+} 
+@media only screen and (max-width: 400px) {
+        html {
+            border: 1px solid gray;
+        }
+    
+        body>div {
+            background-color: white;
+            padding: 1px;
+        }
+    
+        header {
+            background-color: #ece650;
+            padding: 0.1rem 3rem 0.1rem 3rem;
+            margin-top: 0.15rem;
+            border-top: 0.5px;
+        }
+    
+        #headerText {
+            font-size: medium;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    
+        .nav_a {
+            background-color: rgb(185, 178, 148);
+            color: gray;
+            border: 1px solid black;
+            font-size: 18px;
+        }
+    
+        .item-00 {
+            grid-area: img;
+            /* grid-row: 3/4;
+            grid-column: 1/2; */
+
+        }
+    
+        .item-01 {
+            grid-area: img01;
+            /* grid-row: 4/5;
+            grid-column: 1/2; */
+            
+        }
+    
+        .item-02 {
+            grid-area: img02;
+        }
+    
+        .item-03 {
+            grid-area: img03;
+        }
+    
+        .item-04 {
+            grid-area: img04;
+        }
+    
+        .item-05 {
+            grid-area: img05;
+        }
+    
+        .item-06 {
+            grid-area: img06;
+        }
+    
+        .item-07 {
+            grid-area: img07;
+        }
+    
+        .item-08 {
+            grid-area: img08;
+        }
+    
+        .item-09 {
+            grid-area: img09;
+        }
+    
+        .item-10 {
+            grid-area: img10;
+        }
+    
+        .item-11 {
+            grid-area: img11;
+        }
+    
+        .item-12 {
+            grid-area: img12;
+        }
+    
+        .item-13 {
+            grid-area: img13;
+        }
+    
+        .item-14 {
+            grid-area: img14;
+        }
+    
+        .item-15 {
+            grid-area: img15;
+        }
+    
+        .item-16 {
+            grid-area: img16;
+        }
+    
+        .item-17 {
+            grid-area: img17;
+        }
+    
+        .item-18 {
+            grid-area: img18;
+        }
+    
+        .item-19 {
+            grid-area: img19;
+        }
+    
+        .item-20 {
+            grid-area: img20;
+        }
+    
+        .item-21 {
+            grid-area: item-21;
+            /* grid-column: 5 / 4; */
+            grid-row: 9 / 9;
+        }
+    
+        .container {
+            display: grid;
+            gap: 10px;
+            margin: 10px;
+            width: auto;
+            height: auto;
+            grid-template-columns: auto auto auto auto auto;
+            grid-template-rows: auto auto auto auto auto auto auto auto;
+            grid-template-areas:
+                /* "img img img img img"
+                "img img img img img"
+                "img img img img img"
+                "img01 img04 img05 img06 img07"
+                "img02 img09 img09 img10 img11"
+                "img03 img13 img14 img14 img15"
+                "img12 img13 img16 img17 img18"
+                "img19 img20 img20 . item-21"; */
+                    "img img img img img01"
+                    "img img img img img02"
+                    "img img img img img03"
+                    "img04 img04 img05 img06 img07"
+                    "img08 img09 img09 img10 img11"
+                    "img08 img13 img14 img14 img15"
+                    "img12 img13 img16 img17 img18"
+                    "img19 img20 img20 . item-21";
+                
+        }
+    
+        p {
+            font-size: 18px;
+            justify-items: end;
+            margin-top: 2px;
+            margin-bottom: 2px;
+            color: darkred;
+            display: flex;
+            flex-direction: row;
+            justify-content: end;
+            flex-wrap: wrap;
+            align-items: flex-end;
+            
+    
+        }
+    
+        img {
+            width: 100%;
+            height: 100%;
+        }
+ }
+       
