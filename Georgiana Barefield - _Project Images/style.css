@@ -132,7 +132,7 @@ img{
     
         body>div {
         background-color: white;
-        padding: 20px;
+        padding: .1px;
         }
         
         body{
@@ -161,16 +161,16 @@ img{
     
         .item-00 {
             grid-area: img;
-            grid-row: 3/4;
-            grid-column: 1/2;
+            /* grid-row: 3/4;
+            grid-column: 1/2; */
 
         }
     
         .item-01 {
             grid-area: img01;
-            grid-row: 4/5;
+            /* grid-row: 4/5;
             grid-column: 1/2;
-            
+             */
         }
     
         .item-02 {
@@ -249,30 +249,31 @@ img{
             grid-area: img20;
         }
     
-        .item-21 {
+        /* .item-21 {
             grid-area: item-21;
             grid-column: 5 / 4;
             grid-row: 9 / 9;
-        }
+        } */
     
         .container {
             display: grid;
-            gap: 10px;
-            margin: 10px;
+            gap: 3px;
+            margin: 3px;
             width: auto;
             height: auto;
             grid-template-columns: auto auto auto auto auto;
-            grid-template-rows: auto auto auto auto auto auto auto auto;
+            grid-template-rows: auto auto auto auto auto auto auto auto auto;
             grid-template-areas:
-                /* "img img img img img"
                 "img img img img img"
                 "img img img img img"
+                "img img img img img"
+                "img01 img19 img20 img20 img03"
+                "img02 img19 img20 img20 img03"
                 "img04 img04 img05 img06 img07"
                 "img08 img09 img09 img10 img11"
                 "img08 img13 img14 img14 img15"
-                "img12 img13 img16 img17 img18"
-                "img19 img20 img20 . item-21"; */
-
+                "img12 img13 img16 img17 img18";
+/* 
                     "img img img img img01"
                     "img img img img img02"
                     "img img img img img03"
@@ -280,7 +281,7 @@ img{
                     "img08 img09 img09 img10 img11"
                     "img08 img13 img14 img14 img15"
                     "img12 img13 img16 img17 img18"
-                    "img19 img20 img20 . item-21";
+                    "img19 img20 img20 . item-21"; */
 
         }
     
